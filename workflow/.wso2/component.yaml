@@ -1,8 +1,8 @@
 schemaVersion: 1.1
 
 endpoints:
-  - name: orders
-    displayName: Orders
+  - name: orders1
+    displayName: Orders1
     service:
       basePath: /api
       port: 8090
@@ -10,8 +10,8 @@ endpoints:
     networkVisibilities:
       - Public
     schemaFilePath: openapi.yaml
-  - name: management
-    displayName: Management
+  - name: management1
+    displayName: Management1
     service:
       basePath: /workflow
       port: 8234
