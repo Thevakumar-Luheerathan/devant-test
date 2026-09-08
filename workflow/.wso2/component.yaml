@@ -1,7 +1,7 @@
 schemaVersion: 1.1
 
 endpoints:
-  - name: orders
+  - name: orders1
     displayName: Orders
     service:
       basePath: /api
@@ -10,7 +10,7 @@ endpoints:
     networkVisibilities:
       - Public
     schemaFilePath: openapi.yaml
-  - name: management
+  - name: management1
     displayName: Management
     service:
       basePath: /workflow
